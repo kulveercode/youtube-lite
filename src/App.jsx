@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { AppContext } from "./context/ContextApi";
 
 const App = () => {
   return (
-    <div>
-      App 
-    </div>
+    <AppContext>
+      <div>
+       App 
+      </div>
+    </AppContext>
+    
   )
 }
 
